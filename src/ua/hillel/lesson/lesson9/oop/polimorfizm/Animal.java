@@ -1,11 +1,11 @@
 package ua.hillel.lesson.lesson9.oop.polimorfizm;
 
 public class Animal {
-    public void sayName(){
-        System.out.println("Animal voice");
-
+    public void sayAnimalName(String name) {
+        System.out.println(name);
     }
-    public void sound(){
 
+    public void sound() {
+        System.out.println("Animal voice");
     }
 }

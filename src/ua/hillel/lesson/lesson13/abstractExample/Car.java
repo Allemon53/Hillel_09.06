@@ -9,6 +9,7 @@ public abstract class Car {
     abstract void repair();
 
     void countWheels(){
+
         System.out.println("4");
     }
 }

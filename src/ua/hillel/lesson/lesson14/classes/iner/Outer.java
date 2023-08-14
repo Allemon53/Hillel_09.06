@@ -8,6 +8,7 @@ public class Outer {
     }
     private class InnerDemo{
         public void print(){
+
             System.out.println("Это внетрений класс");
         }
     }
