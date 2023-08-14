@@ -11,4 +11,10 @@ public class This {
         System.out.println(this.num2);
 
     }
+    public void print2() {
+        int num = 15;
+        System.out.println(num);
+        System.out.println(this.num);
+        System.out.println(this.num2);
+    }
 }

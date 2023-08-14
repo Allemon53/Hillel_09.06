@@ -1,11 +1,14 @@
 package ua.hillel.lesson.lesson9.oop.polimorfizm;
 
 public class Cat extends Animal{
-    public void sound(){
+    public String name;
+    @Override
+    public void sound() {
         System.out.println("May");
     }
-    public void aboutCat(){
+
+    void aboutCat() {
+        sayAnimalName("Marysia");
         sound();
     }
-
 }

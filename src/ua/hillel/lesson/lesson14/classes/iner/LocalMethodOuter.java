@@ -5,6 +5,7 @@ public class LocalMethodOuter {
         int num = 999;
         class MethodInnerClass{
             public void print(){
+
                 System.out.println("это внутрений класс метода" + num);
             }
         }
