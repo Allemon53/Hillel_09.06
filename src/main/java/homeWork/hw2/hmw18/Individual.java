@@ -1,4 +1,5 @@
-package homeWork.hw2.hw18;
+
+package homeWork.hw2.hmw18;
 
 public class Individual extends Client {
     private double balance = 1000;

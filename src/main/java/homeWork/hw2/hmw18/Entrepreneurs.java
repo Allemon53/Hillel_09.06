@@ -1,4 +1,4 @@
-package homeWork.hw2.hw18;
+package homeWork.hw2.hmw18;
 
 public class Entrepreneurs extends Client {
     private double balance = 500;

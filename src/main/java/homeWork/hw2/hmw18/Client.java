@@ -1,4 +1,4 @@
-package homeWork.hw2.hw18;
+package homeWork.hw2.hmw18;
 
 abstract class Client {
     protected double balance;
