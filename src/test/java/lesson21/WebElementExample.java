@@ -28,6 +28,7 @@ public class WebElementExample {
         inputSearch.sendKeys("Hillel");
         searchBtn.click();
         sleep(1000);
+        //
     }
 
 
