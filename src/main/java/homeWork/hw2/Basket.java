@@ -44,7 +44,8 @@ public class Basket {
                 .findElement(By.xpath("(//div[@data-goods-id='353549163']//button[contains(@class,'buy-button')])[1]"));
         firstProduct.click();
 
-        WebElement successMessage = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='cart-popup']")));
+        WebElement successMessage = wait
+                .until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='cart-popup']")));
 
         WebElement cartItemCount = driver
                 .findElement(By.className("counter"));
