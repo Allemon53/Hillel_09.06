@@ -8,4 +8,6 @@ public class SearchPageLocators {
     By firstProductTittle = By.xpath("//span[@class='goods-tile__title']");
 
 
+    public void checkingQuantityProductOnPage(int i) {
+    }
 }

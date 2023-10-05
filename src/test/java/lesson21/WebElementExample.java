@@ -32,9 +32,7 @@ public class WebElementExample {
     }
 
 
-    @AfterTest
-    public void close(){
-        driver.close();
+ //   @AfterTest
+ //   public void close(){
+   //     driver.close();
     }
-
-}
