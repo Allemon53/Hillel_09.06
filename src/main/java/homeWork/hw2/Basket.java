@@ -41,7 +41,7 @@ public class Basket {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@data-goods-id='353549163']")));
 
         WebElement firstProduct = driver
-                .findElement(By.xpath("(//div[@data-goods-id='353549163']//button[contains(@class,'buy-button')])[1]"));
+                .findElement(By.xpath("(//div[@data-goods-id='353549163']"));
         firstProduct.click();
 
         WebElement successMessage = wait
